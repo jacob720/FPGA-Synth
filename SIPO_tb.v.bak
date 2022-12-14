@@ -1,0 +1,40 @@
+`timescale 1 ns / 100 ps
+
+module SIPO_tb;
+	
+	reg [3:0]in;
+	reg clk;
+	
+	wire out;
+	
+	SIPO dut(
+	in,
+	clk,
+	out
+	);
+	
+	always begin
+		
+		#5;
+		clk <= ~clk;
+		
+	end
+	
+	initial begin
+		
+		clk <= 1'b0;
+		in <= 4'b1;
+		#20
+		in <= 4'b5;
+		#20
+		in <= 4'b9;
+		#20
+		in <= 4'b13;
+		#20
+		$stop;
+		
+	end
+	
+endmodule
+	
+	
