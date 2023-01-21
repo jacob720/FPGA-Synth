@@ -8,7 +8,7 @@ module FrequencyMemReg (
 	input LOAD,
 	input clk,
 	output wire [19:0] OUT
-
+ 
 ); 
 
 //connecting 28 DFF together in a registor
