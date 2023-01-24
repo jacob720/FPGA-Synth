@@ -1,18 +1,18 @@
-/* SIxteenBitFullAdder.v
+/* SixteenBitFullAdder.v
 
 By: Jacob Williamson
 
 Module Description:
-A thirty-two bit full adder module
+A seventeen bit full adder module
 
 Inputs:
-a [15:0] - The first number to be added
-b [15:0] - The second number to be added
-c_in - Carry in
+a [15:0] - the first number to be added
+b [15:0] - the second number to be added
+c_in - carry in
 
 Outputs:
-sum [15:0] - The sum of the two numbers being added
-c_out - Carry out
+sum [15:0] - the sum of the two numbers being added
+c_out - carry out
 
 */
 

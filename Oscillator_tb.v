@@ -44,6 +44,8 @@ module Oscillator_tb;
 			
 		end
 		
+	$stop;
+		
 	end
 	
 endmodule

@@ -9,6 +9,10 @@ Inputs:
 clk - clock signal driving the module.
 freq - frequency in Hz of the waves.
 ctrl - control bits to determine which waveform is produced.
+		00 -> saw
+		01 -> square
+		10 -> sine
+		11 -> triangle
 reset - reset bit to set phase of wave to 0.
 
 Outputs:

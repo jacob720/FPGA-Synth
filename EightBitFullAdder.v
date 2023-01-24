@@ -23,7 +23,6 @@ module EightBitFullAdder(
 	input c_in,
 	output [7:0] sum,
 	output c_out
-	
 );
 	
 	wire [6:0] w1;
