@@ -1,22 +1,22 @@
 `timescale 1 ns/100 ps
 
-module SixteenBitFullAdder_tb;
+module ThirtySevenBitFullAdder_tb;
 
 	//inputs are registers
-	reg [15:0] a;
-	reg [15:0] b;
+	reg [36:0] a;
+	reg [36:0] b;
 	reg c_in;
 	
 	//outputs are wires
-	wire [15:0] sum;
+	wire [36:0] sum;
 	wire c_out;
 	
 	//Instantiate Device Under Test
-	SixteenBitFullAdder dut(
-		a[15:0],
-		b[15:0],
+	ThirtySevenBitFullAdder dut(
+		a[36:0],
+		b[36:0],
 		c_in,
-		sum[15:0],
+		sum[36:0],
 		c_out
 	);
 	
@@ -30,8 +30,8 @@ module SixteenBitFullAdder_tb;
 		
 		for (i = 0; i < 1000000; i = i + 1) begin
 		
-			a = $urandom() % 65536;
-			b = $urandom() % 65536;
+			a = $urandom() * $urandom();
+			b = $urandom() * $urandom();
 			c_in = $random % 2;
 			#10;
 			
@@ -44,7 +44,7 @@ module SixteenBitFullAdder_tb;
 			
 		end 
 		
-	$stop;
+		$stop;
 	
 	end
 

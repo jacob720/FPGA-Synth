@@ -19,38 +19,19 @@ module SineLookup(
 );
 
 	wire useless[2:0];
-	wire [7:0] neg_phase;
-	wire [7:0] second_quarter;
-	wire [7:0] third_quarter;
-	wire [7:0] fourth_quarter;
-	reg [7:0] quartered_phase;
+	wire [7:0] inverse_phase;
+	reg [5:0] quartered_phase;
 	wire [15:0] pos_wave;
-	wire [15:0] neg_wave;
 	
 	
 	EightBitFullAdder adder1(
 		~phase,
-		8'b10000000,
+		8'b00000000,
 		1'b1,
-		second_quarter,
+		inverse_phase,
 		useless[0]
 	);
 	
-	EightBitFullAdder adder2(
-		phase,
-		8'b10000000,
-		1'b0,
-		third_quarter,
-		useless[1]
-	);
-	
-	EightBitFullAdder adder3(
-		~phase,
-		8'b00000000,
-		1'b1,
-		fourth_quarter,
-		useless[2]
-	);
 	
 	SineTable sine_table(
 		quartered_phase,
@@ -61,16 +42,16 @@ module SineLookup(
 	always @ (*) begin
 	
 		if (phase < 64) begin
-			quartered_phase <= phase;
+			quartered_phase <= phase[5:0];
 			sinewave <= pos_wave;
 		end else if (phase < 128) begin
-			quartered_phase <= second_quarter;
+			quartered_phase <= ~phase[5:0];
 			sinewave <= pos_wave;
 		end else if (phase < 192) begin
-			quartered_phase <= third_quarter;
+			quartered_phase <= phase[5:0];
 			sinewave <= ~pos_wave;
 		end else if (phase < 256) begin
-			quartered_phase <= fourth_quarter;
+			quartered_phase <= ~phase[5:0];
 			sinewave <= ~pos_wave;
 		end
 		

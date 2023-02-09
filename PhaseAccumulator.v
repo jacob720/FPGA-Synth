@@ -9,8 +9,9 @@ To convert to radians, calculate: phase * (2PI / (2^32-1)).
 
 Inputs:
 clk - clock signal driving the module.
-phase_step - how much the phase with increment every clock cycle.
 reset - reset bit to set phase to 0.
+phase_step - how much the phase with increment every clock cycle.
+
 
 Outputs:
 phase - the phase.
@@ -19,17 +20,17 @@ phase - the phase.
 
 module PhaseAccumulator(
 	input clk,
-	input [31:0] phase_step,
 	input reset,
-	output reg [31:0] phase
+	input [31:0] phase_step,
+	output reg [36:0] phase
 );
 
-	wire [31:0] w1;
+	wire [36:0] w1;
 	wire w2;
 
 	
-	ThirtyTwoBitFullAdder adder(
-		phase_step,
+	ThirtySevenBitFullAdder adder(
+		{5'b00000, phase_step},
 		phase,
 		1'b0,
 		w1,

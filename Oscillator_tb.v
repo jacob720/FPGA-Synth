@@ -3,16 +3,16 @@
 module Oscillator_tb;
 
 	reg clk;
+	reg reset;
 	reg [19:0] freq;
 	reg [1:0] ctrl;
-	reg reset;
 	wire [15:0] wave;
 	
 	Oscillator dut(
 		clk,
+		reset,
 		freq,
 		ctrl,
-		reset,
 		wave
 	);
 	
@@ -25,7 +25,7 @@ module Oscillator_tb;
 		
 		clk = 0;
 		ctrl = 2'b00;
-		freq = 440;
+		freq = 14080;		//440 Hz
 		reset = 1'b0;
 		#10;
 		reset = 1'b1;
