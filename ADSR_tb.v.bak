@@ -1,0 +1,52 @@
+`timescale 1 ns / 100 ps
+
+module ADSR_tb;
+	reg clk;
+	reg note_on;
+	reg reset;
+	reg [15:0] in;
+	reg [4:0] sustain_level;
+	wire [19:0] signal_out;
+	wire [3:0] count_out;
+	
+	ADSR dut(
+		clk,
+		note_on,
+		reset,
+		in,
+		sustain_level,
+		signal_out,
+		count_out
+	);
+	
+	always begin
+		clk = ~clk;
+		in = ~in;
+		#2;
+	end
+	
+	initial begin
+		clk = 1'b1;
+		note_on = 1'b0;
+		reset = 1'b0;
+		in = 16'b1111111111111111;
+		sustain_level = 4'b0011;
+		#10;
+		reset = 1'b1;
+		#10;
+		reset = 1'b0;
+		#30;
+		note_on = 1'b1;
+		#100;
+		note_on = 1'b0;
+		#120;
+		note_on = 1'b1;
+		#100;
+		note_on = 1'b0;
+		#100;
+	$stop;
+	end
+	
+	
+	
+endmodule

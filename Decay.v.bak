@@ -1,0 +1,41 @@
+module Decay(
+	input clk,
+	input [19:0] in,
+	input [3:0] decay_amount,
+	input start,
+	output reg [19:0] out,
+	output start_sustain
+);
+
+wire [3:0]scalar;
+wire [2:0]scale_compare;
+wire end_decay;
+wire not_clk;
+reg reset;
+
+IncreasingScalar scalar_inc(
+	clk,
+	start,
+	4'b0000,
+	scalar
+);
+	assign scale_out = scalar;
+	xnor(scale_compare[0],scalar[0],decay_amount[0]);
+	xnor(scale_compare[1],scalar[1],decay_amount[1]);
+	xnor(scale_compare[2],scalar[2],decay_amount[2]);
+	and(end_decay,scale_compare[0],scale_compare[1],scale_compare[2]);
+	
+	not(not_clk,clk);
+	DTypeFF dff(
+		not_clk,
+		end_decay,
+		start_sustain
+	);
+	
+	always @ (posedge clk) begin
+	
+		out <= in >> scalar;
+		
+	end
+	
+endmodule

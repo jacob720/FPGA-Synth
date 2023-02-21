@@ -1,0 +1,45 @@
+`timescale 1 ns / 100 ps
+
+module Release_tb;
+	reg clk;
+	reg start;
+	reg [4:0] sustain_level;
+	reg [19:0] in;
+	wire [19:0] out;
+	wire end_release;
+	
+	Release dut(
+		clk,
+		start,
+		sustain_level,
+		in,
+		out,
+		end_release
+	);
+	
+	always begin
+		clk = ~clk;
+		in = ~in;
+		#2;
+	end
+	
+	integer i;
+	initial begin
+		clk = 1'b1;
+		start = 1'b0;
+		sustain_level = 4'b0000;
+		in = 20'b11111111111111111111;
+		#20;
+		for (i = 0; i < 16; i = i+1) begin
+		start = 1'b1;
+		sustain_level = i;
+		#10;
+		start = 1'b0;
+		
+		#100;
+		
+		end
+	$stop;
+	end
+
+endmodule
