@@ -1,0 +1,27 @@
+Things to set upon restart:
+
+[OPTIONAL] 0. Reset 
+- 111111111
+- 000000000 to reset
+- 111111111
+
+1. Digital Auio Path Control: 
+register 9: 	0000101
+set to:  	000000000[8:0] (default: 00001000)
+	- remove soft mute on DACS
+2. Analogue Audio Path:
+
+register 08:	0000100
+set to: 	000010010 (default: 000001010)
+	- remove bypas
+	- select (unmute) DAC
+
+[NO CHANGE] Left/Right Headphone Out: should be loud and good to go
+[NO CHANGE] Left/Right Line In: should be muted :)
+[NO CHANGE] Sampling control:
+
+(default: 000000000) Normal mode, 256fs, ADC and DAC sample rate control
+
+[NO CHANGE] Digital Audio Interface Format
+
+(default: 000001010) we are sending/receiving 24bit audio now
