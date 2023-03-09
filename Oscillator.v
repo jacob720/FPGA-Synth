@@ -28,22 +28,24 @@ module Oscillator(
 	output reg [15:0] wave
 );
 
-	wire [27:0] phase_step;
+	wire [31:0] phase_step;
 	wire [36:0] phase;
 	wire [15:0] sine;
 	wire [15:0] half_triangle;
 	wire useless;
 	
-	TwentyBitMultiplier multiplier(
-		freq,
-		8'b01010110,
-		phase_step
-	);
+	//TwentyBitMultiplier multiplier(
+	//	freq,
+	//	8'b01010110,
+	//	phase_step
+	//);
+	
+	assign phase_step = 89478 * freq;
 
 	PhaseAccumulator accumulator(
 		clk,
 		reset,
-		{4'b0000, phase_step},
+		phase_step,
 		phase
 	);
 	

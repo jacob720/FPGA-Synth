@@ -83,7 +83,7 @@ module PolyFreqLookup(
 );
 	
 	reg [3:0] current_voice;
-	wire [8:0] next_voice;
+	wire [4:0] next_voice;
 	reg [6:0] current_note;
 	wire [19:0] current_frequency;
 	
@@ -92,12 +92,12 @@ module PolyFreqLookup(
 		current_frequency
 	);
 	
-	EightBitFullAdder adder(
-		{4'b0000,current_voice},
-		8'b00000001,
+	FourBitFullAdder adder(
+		current_voice,
+		4'b0001,
 		1'b0,
-		next_voice[7:0],
-		next_voice[8]
+		next_voice[3:0],
+		next_voice[4]
 	);
 	
 	
