@@ -10,6 +10,7 @@ wire [18:0] C; //output of the counter
 wire n; //output from the comparator - the new clock signal to be assigned to the register
 
 wire reset_mux;
+wire reset;
 
 Counter100Hz clockdivcount (
 	CLK_50_MHz,
