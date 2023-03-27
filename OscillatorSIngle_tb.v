@@ -1,20 +1,18 @@
 `timescale 1 ns/100 ps
 
-module Oscillator_tb;
+module OscillatorSingle_tb;
 
 	reg clk;
 	reg reset;
-	reg [19:0] freq;
+	reg [31:0] phase_step;
 	reg [1:0] ctrl;
-	reg [3:0] detune;
 	wire [15:0] wave;
 	
-	Oscillator dut(
+	OscillatorSingle dut(
 		clk,
 		reset,
-		freq,
+		phase_step,
 		ctrl,
-		detune,
 		wave
 	);
 	
@@ -23,12 +21,11 @@ module Oscillator_tb;
 	
 	initial begin
 		
-		total_cycles = 500000;
+		total_cycles = 5000000;
 		
 		clk = 0;
 		ctrl = 2'b00;
-		detune = 0;
-		freq = 14080;		//440 Hz
+		phase_step = 440 * 32 * 89478;		//440 Hz
 		reset = 1'b0;
 		#10;
 		reset = 1'b1;
@@ -39,13 +36,10 @@ module Oscillator_tb;
 		for (i = 1; i < total_cycles; i = i + 1) begin
 		
 			clk = ~clk;
-			#10416;			// 48kHz clock
+			#10416;									// 48kHz clock
 			
 			if ((i % (total_cycles/4)) == 0) begin
 				ctrl = ctrl + 1;
-				detune = 0;
-			end else if ((i % (total_cycles/16)) == 0) begin
-				detune = detune + 5;
 			end
 			
 		end
