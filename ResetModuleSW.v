@@ -10,6 +10,7 @@ module ResetModuleSW (
 
 	input clk, //50mhz on board system clock
 	input locked, //locked PLL signal
+	input DACReadyFlag, //DAC hs reset properly
 	
 	output reg [6:0] volume, //for the dac
 	
@@ -17,8 +18,8 @@ module ResetModuleSW (
 
 	output reg reset_enable, //for pot values
 	output reg reset, //active hive reset
-	output reg reset_n //active low reset
-
+	output reg reset_n, //active low reset
+	output reg readyFlag //ready flag for arduino
 );
 
 
@@ -34,6 +35,7 @@ always @ (posedge clk) begin
 				reset  = 1'b0; //intial value
 				reset_n  = 1'b1; //intial value
 				reset_enable = 1'b0;
+				readyFlag = 1'b0;
 			
 			end
 			
@@ -49,15 +51,43 @@ always @ (posedge clk) begin
 			
 			end
 			
-			else if (x == 4) begin 
+			else if (x == 8) begin 
+			
+			reset  = 1'b0; //deactivated
+			reset_n  = 1'b1; //deactivated
+			readyFlag = 1'b1;
+			
+			reset_enable = 1'b1;
 				
-				reset_enable = 1'b0;
+				x = 9;
+			
+			end
+			
+			else if (x == 7) begin  // a delay of clock cycles to allow reset for slower clock
+				
+				x = 8;
+			
+			end
+			
+			else if (x == 6) begin  // a delay of clock cycles to allow reset for slower clock
+				
+				x = 7;
+			
+			end
+			
+			else if (x == 5) begin  // a delay of clock cycles to allow reset for slower clock
+				
+				x = 6;
+			
+			end
+			
+			else if (x == 4) begin  // a delay of clock cycles to allow reset for slower clock
 				
 				x = 5;
 			
 			end
 			
-			else if (x == 3) begin  // a delay of 1 clock cylce to allow the registers to fill
+			else if (x == 3) begin  // a delay of clock cycles to allow reset for slower clock
 				
 				x = 4;
 			
@@ -65,16 +95,14 @@ always @ (posedge clk) begin
 			
 			else if (x == 2) begin 
 			
-				reset_enable = 1'b1;
+				
 				
 				x = 3;
 			
 			end
 			
 			else if (x == 1) begin 
-			
-				reset  = 1'b0; //deactivated
-				reset_n  = 1'b1; //deactivated
+				
 				
 				x = 2;
 			
@@ -89,13 +117,15 @@ always @ (posedge clk) begin
 				
 			end 
 			
-			else if (i >= 100 && x == 5) begin // should only work once the memory register have been loaded
+			else if (i >= 100 && x == 9 && DACReadyFlag == 1) begin // should only work once the memory register have been loaded and dac reset
 			
+				reset_enable = 1'b0;
 				volume = 7'b0110000;
 				
 			end
 					
 		i = i + 1;
+		//xn = x;
 		
 	end
 			
