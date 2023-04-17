@@ -123,6 +123,12 @@ always @ (posedge clk) begin
 				volume = 7'b0110000;
 				
 			end
+			
+			else begin
+			
+			volume = 7'b0000000; //for if DACREADY flag goes down
+			
+			end
 					
 		i = i + 1;
 		//xn = x;
