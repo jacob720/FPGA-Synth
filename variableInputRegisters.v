@@ -24,42 +24,42 @@ module variableInputRegisters (
 	input E6, //spare
 	
 	//seq00 - in module 
-	output [9:0] Osc01, //numbers correlate to reg number, bank number - preassigned have code
-	output [9:0] Osc11,
-	output [9:0] Osc21,
-	output [9:0] Osc31,
-	output [9:0] Osc41,
-	output [9:0] Osc51,
-	output [9:0] Osc61,
+	output wire [9:0] Osc01, //numbers correlate to reg number, bank number - preassigned have code
+	output wire  [9:0] Osc11,
+	output wire [9:0] Osc21,
+	output wire [9:0] Osc31,
+	output wire [9:0] Osc41,
+	output wire [9:0] Osc51,
+	output wire [9:0] Osc61,
 	//adsr02 - in module
-	output [9:0] Fltr03,
-	output [9:0] Fltr13,
-	output [9:0] Fltr23,
-	output [9:0] Fltr33,
-	output [9:0] Fltr43,
-	output [9:0] Fltr53,
-	output [9:0] Fltr63,
-	output [9:0] Efct04,
-	output [9:0] Efct14,
-	output [9:0] Efct24,
-	output [9:0] Efct34,
-	output [9:0] Efct44,
-	output [9:0] Efct54,
-	output [9:0] Efct64,
-	output [9:0] E05,
-	output [9:0] E15,
-	output [9:0] E25,
-	output [9:0] E35,
-	output [9:0] E45,
-	output [9:0] E55,
-	output [9:0] E65,
-	output [9:0] E06,
-	output [9:0] E16,
-	output [9:0] E26,
-	output [9:0] E36,
-	output [9:0] E46,
-	output [9:0] E56,
-	output [9:0] E66
+	output wire [9:0] Fltr03,
+	output wire [9:0] Fltr13,
+	output wire [9:0] Fltr23,
+	output wire [9:0] Fltr33,
+	output wire [9:0] Fltr43,
+	output wire [9:0] Fltr53,
+	output wire [9:0] Fltr63,
+	output wire [9:0] Efct04,
+	output wire [9:0] Efct14,
+	output wire [9:0] Efct24,
+	output wire [9:0] Efct34,
+	output wire [9:0] Efct44,
+	output wire [9:0] Efct54,
+	output wire [9:0] Efct64,
+	output wire [9:0] E05,
+	output wire [9:0] E15,
+	output wire [9:0] E25,
+	output wire [9:0] E35,
+	output wire [9:0] E45,
+	output wire [9:0] E55,
+	output wire [9:0] E65,
+	output wire [9:0] E06,
+	output wire [9:0] E16,
+	output wire [9:0] E26,
+	output wire [9:0] E36, 
+	output wire [9:0] E46,
+	output wire [9:0] E56,
+	output wire [9:0] E66
 
 	
 
@@ -139,10 +139,6 @@ FrequencyMemReg e63( reg3, E6, clk, E36 );
 FrequencyMemReg e64( reg4, E6, clk, E46 );
 FrequencyMemReg e65( reg5, E6, clk, E56 );
 FrequencyMemReg e66( reg6, E6, clk, E66 );
-
-
-//do others
-
 
 endmodule
 
