@@ -1,0 +1,7 @@
+module BYPASSeffects(AudioOut);
+
+assign AudioLeftEffects = {20{!EffectsBypass}}&AudioLeftReverb|{20{EffectsBypass}}&AudioLeftADSR;
+
+
+
+endmodule
