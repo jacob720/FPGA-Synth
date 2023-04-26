@@ -1,0 +1,7 @@
+module JacobTopLevel(
+	input clock48kHz,
+	input RESET,
+	
+	output AudioL20bit,
+	output AudioR20bit
+)

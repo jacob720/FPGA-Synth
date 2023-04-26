@@ -1,0 +1,19 @@
+module WM8731DriverBETA(
+	input RESET,
+	input CLOCK50M,
+	input InitialiseTransfer,
+	input [15:0] message,
+	
+	output SCLK,	//I2C clock line
+	output SDIN,	//I2C data line
+	
+	output MCLK		//WM8731 masterClock (default: )
+	
+	output BCLK,		//I2S clock
+	output DACLRC,		//I2S left/right select (0 = left, 1 = right; 0 goes first)
+	output DACDAT		//I2S data line
+	);
+
+
+
+endmodule

@@ -1,0 +1,12 @@
+module UnsignedTo2sCompl20Bit(
+	input [19:0] Unsigned,
+	output [19:0] TwosCompl
+);
+
+
+
+
+
+
+
+endmodule

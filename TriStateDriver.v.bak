@@ -1,0 +1,5 @@
+module TriStateDriver(
+	input nWrite,
+	input DATAin,
+	output DATAout
+);

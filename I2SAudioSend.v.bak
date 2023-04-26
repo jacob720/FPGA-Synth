@@ -1,0 +1,8 @@
+module I2SAudioSend(
+	input BLCK,
+	input LOut[23:0],
+	input ROut[23:0],
+
+	output reg DACLRC,
+	output reg DACDAT
+);

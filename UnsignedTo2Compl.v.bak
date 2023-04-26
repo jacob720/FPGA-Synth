@@ -1,0 +1,13 @@
+UnsignedTo2Compl(
+	input [23:0] UIntDATA,
+	
+	output [24:0] TwosComplementDATA
+)
+
+//initially,
+assign outpu
+
+
+
+
+endmodule

@@ -1,0 +1,16 @@
+module BinaryTo2sCompl(
+
+input [19:0] DataUnsigned,
+
+output [24:0] Data2sCompl
+
+);
+
+
+
+
+
+
+
+
+endmodule;

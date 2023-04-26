@@ -1,0 +1,330 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+# Date created = 23:36:24  March 07, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		WM8731DriverBETA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY SynthTopLevel
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:36:24  MARCH 07, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH CUSW_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME I2CMasterV3_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id I2CMasterV3_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME I2CMasterV3_tb -section_id I2CMasterV3_tb
+set_location_assignment PIN_Y2 -to CLOCK50M
+set_location_assignment PIN_M21 -to InitialiseTransfer
+set_location_assignment PIN_Y23 -to RESET
+set_location_assignment PIN_B7 -to SCLK
+set_location_assignment PIN_A8 -to SDIN
+set_location_assignment PIN_AA22 -to message[15]
+set_location_assignment PIN_AA23 -to message[14]
+set_location_assignment PIN_AA24 -to message[13]
+set_location_assignment PIN_AB23 -to message[12]
+set_location_assignment PIN_AB24 -to message[11]
+set_location_assignment PIN_AC24 -to message[10]
+set_location_assignment PIN_AB25 -to message[9]
+set_location_assignment PIN_AC25 -to message[8]
+set_location_assignment PIN_AB26 -to message[7]
+set_location_assignment PIN_AD26 -to message[6]
+set_location_assignment PIN_AC26 -to message[5]
+set_location_assignment PIN_AB27 -to message[4]
+set_location_assignment PIN_AD27 -to message[3]
+set_location_assignment PIN_AC27 -to message[2]
+set_location_assignment PIN_AC28 -to message[1]
+set_location_assignment PIN_AB28 -to message[0]
+set_location_assignment PIN_E3 -to DACLRC
+set_location_assignment PIN_D1 -to DACDAT
+set_location_assignment PIN_E1 -to MCLK
+set_location_assignment PIN_F2 -to BCLK
+set_global_assignment -name EDA_TEST_BENCH_NAME PLL12M6M48k_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id PLL12M6M48k_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME PLL12M6M48k_tb -section_id PLL12M6M48k_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME WM8731DriverBETA_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id WM8731DriverBETA_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME WM8731DriverBETA_tb -section_id WM8731DriverBETA_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME ADSR_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ADSR_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ADSR_tb -section_id ADSR_tb
+set_location_assignment PIN_Y24 -to NoteOn
+set_global_assignment -name EDA_TEST_BENCH_NAME ReverbShroeder1_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ReverbShroeder1_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ReverbShroeder1_tb -section_id ReverbShroeder1_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME Oscillator_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Oscillator_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Oscillator_tb -section_id Oscillator_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME Delay1Tap_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Delay1Tap_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Delay1Tap_tb -section_id Delay1Tap_tb
+set_global_assignment -name VERILOG_FILE FilterJane/TwentyBitFullAdder.v
+set_global_assignment -name VERILOG_FILE FilterJane/Tap.v
+set_global_assignment -name VERILOG_FILE FilterJane/OneBitHalfAdder.v
+set_global_assignment -name VERILOG_FILE FilterJane/FourTap_FIR.v
+set_global_assignment -name VERILOG_FILE FilterJane/Delay_20bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/ADSR_tb.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Multiplexer_4bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/HalfSubtractor.v
+set_global_assignment -name VERILOG_FILE ADSRJane/BinaryCounter_4bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/OneBitFullSubtractor.v
+set_global_assignment -name VERILOG_FILE ADSRJane/JKTypeFF.v
+set_global_assignment -name VERILOG_FILE ADSRJane/BinaryCountdown_4bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Sustain.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Release.v
+set_global_assignment -name VERILOG_FILE ADSRJane/MUX_8input_8bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/MUX_4input_8bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/MUX_3input_8bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/MUX_2input_1bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Multiplexer20bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Multiplexer5bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Multiplexer_5bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/IncreasingScalar.v
+set_global_assignment -name VERILOG_FILE ADSRJane/FiveBitFullSubtractor.v
+set_global_assignment -name VERILOG_FILE ADSRJane/FiveBitFullAdder.v
+set_global_assignment -name VERILOG_FILE ADSRJane/DecreasingScalar.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Decay.v
+set_global_assignment -name VERILOG_FILE ADSRJane/BinaryCounter_5bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/BinaryCountdown_5bit.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Attack.v
+set_global_assignment -name VERILOG_FILE ADSRJane/ADSR.v
+set_global_assignment -name VERILOG_FILE SR32CLOCKdriver.v
+set_global_assignment -name VERILOG_FILE SixBitFullAdder.v
+set_global_assignment -name VERILOG_FILE SixBitCounter.v
+set_global_assignment -name VERILOG_FILE PISO_SReg32Bit.v
+set_global_assignment -name VERILOG_FILE PISO_SReg4Bit.v
+set_global_assignment -name VERILOG_FILE OneBitFullAdder.v
+set_global_assignment -name VERILOG_FILE I2CMasterV3_tb.v
+set_global_assignment -name VERILOG_FILE I2CCounterControlLogic.v
+set_global_assignment -name VERILOG_FILE DTypeFF.v
+set_global_assignment -name VERILOG_FILE I2CMasterV3.v
+set_global_assignment -name VERILOG_FILE I2SAudioSend.v
+set_global_assignment -name VERILOG_FILE WM8731DriverBETA.v
+set_global_assignment -name QIP_FILE PLL5M1600.qip
+set_global_assignment -name VERILOG_FILE UnsignedTo2Compl.v
+set_global_assignment -name VERILOG_FILE FullAdder18bit.v
+set_global_assignment -name VERILOG_FILE Counter18bit.v
+set_global_assignment -name QIP_FILE PLL12M.qip
+set_global_assignment -name VERILOG_FILE WM8731DriverBETA_tb.v
+set_global_assignment -name VERILOG_FILE BinaryTo2sCompl.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/ArrayCell.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/ArrayCell_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Chords.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Chords_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/EightBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/EighteenBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/EighteenBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/FourBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/FourBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/FourCellArrayRow.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/FreqLookup.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/FreqLookup_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/FullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Gain.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Gain_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Mixer16.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Mixer16_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/NineteenBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/NineteenBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/OneBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Oscillator.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/Oscillator_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/PhaseAccumulator.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/PhaseAccumulator_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/PLL48k_bb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/PolyFreqLookup.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SeventeenBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SeventeenBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SineLookup.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SineLookup_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SineTable.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SixteenBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/SixteenBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TestingPoly.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TestingPoly_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TestingPoly2.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TestingPoly2_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/ThirtySevenBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/ThirtySevenBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/ThirtyTwoBitFullAdder.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/ThirtyTwoBitFullAdder_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TwentyBitMultiplier.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TwentyBitMultiplier_tb.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/TwentyCellArrayRow.v
+set_global_assignment -name VERILOG_FILE JacobTopLevel.v
+set_global_assignment -name VERILOG_FILE mux2bitsS.v
+set_global_assignment -name VERILOG_FILE ADSRJane/Multiplexer.v
+set_global_assignment -name VERILOG_FILE JaneTopLevel.v
+set_global_assignment -name VERILOG_FILE Shroeder1Rvrb/AllPassFilter.v
+set_global_assignment -name VERILOG_FILE Shroeder1Rvrb/CombFilter.v
+set_global_assignment -name VERILOG_FILE Shroeder1Rvrb/Delay1CC.v
+set_global_assignment -name VERILOG_FILE Shroeder1Rvrb/ReverbShroeder1.v
+set_global_assignment -name VERILOG_FILE Shroeder1Rvrb/ReverbShroeder1_tb.v
+set_global_assignment -name VERILOG_FILE MIKOeffects/BYPASSeffects.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/ClockDiv_99_reset.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/ClockDivider50MHzTo100Hz.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/Comparator.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/Counter_4bitSW.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/Counter100Hz.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/DFF_module_SW.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/DTypeFF.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/FrequencyMemReg.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/Mux21.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/noteTrigger.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/OneBitFullAdder.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/OneBitReg.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/SequencerII.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/Sophie2Osc.v
+set_global_assignment -name VERILOG_FILE SeqcrSophie/VariableClkSeq.v
+set_global_assignment -name VERILOG_FILE CLOCKZsophie/ADSRClockDiv.v
+set_global_assignment -name VERILOG_FILE CLOCKZsophie/SustainVariable.v
+set_global_assignment -name VERILOG_FILE CLOCKZsophie/VariableClkFiveSec.v
+set_global_assignment -name VERILOG_FILE CLOCKZsophie/VariableClkThreeSec.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/OscillatorSingle.v
+set_global_assignment -name VERILOG_FILE OscillatorJacob/OscillatorSIngle_tb.v
+set_global_assignment -name VERILOG_FILE Delay1Tap.v
+set_global_assignment -name VERILOG_FILE Delay1Tap_tb.v
+set_global_assignment -name VERILOG_FILE TriStateDriver.v
+set_global_assignment -name VERILOG_FILE TriStateDriver16bit.v
+set_global_assignment -name VERILOG_FILE FilterTopLevel.v
+set_global_assignment -name VERILOG_FILE BYPASSFilter.v
+set_global_assignment -name VERILOG_FILE UnsignedTo2sCompl20Bit.v
+set_global_assignment -name VERILOG_FILE UnsignedTo2sCompl20Bit_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME UnsignedTo2sCompl20Bit_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id UnsignedTo2sCompl20Bit_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME UnsignedTo2sCompl20Bit_tb -section_id UnsignedTo2sCompl20Bit_tb
+set_location_assignment PIN_AB7 -to SRAMaddress[0]
+set_location_assignment PIN_AD7 -to SRAMaddress[1]
+set_location_assignment PIN_AE7 -to SRAMaddress[2]
+set_location_assignment PIN_AC7 -to SRAMaddress[3]
+set_location_assignment PIN_AB6 -to SRAMaddress[4]
+set_location_assignment PIN_AE6 -to SRAMaddress[5]
+set_location_assignment PIN_AB5 -to SRAMaddress[6]
+set_location_assignment PIN_AC5 -to SRAMaddress[7]
+set_location_assignment PIN_AF5 -to SRAMaddress[8]
+set_location_assignment PIN_T7 -to SRAMaddress[9]
+set_location_assignment PIN_AF2 -to SRAMaddress[10]
+set_location_assignment PIN_AD3 -to SRAMaddress[11]
+set_location_assignment PIN_AB4 -to SRAMaddress[12]
+set_location_assignment PIN_AC3 -to SRAMaddress[13]
+set_location_assignment PIN_AA4 -to SRAMaddress[14]
+set_location_assignment PIN_AB11 -to SRAMaddress[15]
+set_location_assignment PIN_AC11 -to SRAMaddress[16]
+set_location_assignment PIN_AB9 -to SRAMaddress[17]
+set_location_assignment PIN_AH3 -to SRAMdata[0]
+set_location_assignment PIN_AF4 -to SRAMdata[1]
+set_location_assignment PIN_AG3 -to SRAMdata[15]
+set_location_assignment PIN_AF3 -to SRAMdata[14]
+set_location_assignment PIN_AE4 -to SRAMdata[13]
+set_location_assignment PIN_AE3 -to SRAMdata[12]
+set_location_assignment PIN_AE1 -to SRAMdata[11]
+set_location_assignment PIN_AE2 -to SRAMdata[10]
+set_location_assignment PIN_AD2 -to SRAMdata[9]
+set_location_assignment PIN_AD1 -to SRAMdata[8]
+set_location_assignment PIN_AF7 -to SRAMdata[7]
+set_location_assignment PIN_AH6 -to SRAMdata[6]
+set_location_assignment PIN_AG6 -to SRAMdata[5]
+set_location_assignment PIN_AF6 -to SRAMdata[4]
+set_location_assignment PIN_AH4 -to SRAMdata[3]
+set_location_assignment PIN_AG4 -to SRAMdata[2]
+set_location_assignment PIN_AF8 -to SRAM_nCE
+set_location_assignment PIN_AE8 -to SRAM_nWE
+set_location_assignment PIN_AC4 -to SRAM_nUB
+set_location_assignment PIN_AD5 -to SRAM_nOE
+set_location_assignment PIN_AD4 -to SRAM_nLB
+set_location_assignment PIN_AB8 -to SRAMaddress[18]
+set_location_assignment PIN_T8 -to SRAMaddress[19]
+set_global_assignment -name VERILOG_FILE FilterJane/Reduced17Tap_FIR.v
+set_global_assignment -name VERILOG_FILE FilterJane/Reduced17Tap_FIR_tb.v
+set_global_assignment -name VERILOG_FILE Reduced17Tap_FIR_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME Reduced17Tap_FIR_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Reduced17Tap_FIR_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Reduced17Tap_FIR_tb -section_id Reduced17Tap_FIR_tb
+set_global_assignment -name VERILOG_FILE CLOCKZsophie/TESTSW2.v
+set_global_assignment -name VERILOG_FILE TESTSW2_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME TESTSW2_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id TESTSW2_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME TESTSW2_tb -section_id TESTSW2_tb
+set_global_assignment -name QIP_FILE PLL196M.qip
+set_global_assignment -name VERILOG_FILE SynthTopLevel.v
+set_global_assignment -name VERILOG_FILE CUSW/CUSW.v
+set_global_assignment -name VERILOG_FILE CUSW/CUSW_tb.v
+set_global_assignment -name VERILOG_FILE CUSW/DACreset.v
+set_global_assignment -name VERILOG_FILE CUSW/DACreset_tb.v
+set_global_assignment -name VERILOG_FILE CUSW/fltrInput.v
+set_global_assignment -name VERILOG_FILE CUSW/fltrInput_tb.v
+set_global_assignment -name VERILOG_FILE CUSW/oscInput.v
+set_global_assignment -name VERILOG_FILE CUSW/oscInput_tb.v
+set_global_assignment -name VERILOG_FILE CUSW/variableInputRegisters.v
+set_global_assignment -name VERILOG_FILE CUSW/variableInputRegisters_tb.v
+set_global_assignment -name VERILOG_FILE CUSW/volumeControl.v
+set_global_assignment -name VERILOG_FILE CUSW/volumeControl_tb.v
+set_global_assignment -name VERILOG_FILE CUSW/ResetModuleSW.v
+set_global_assignment -name EDA_TEST_BENCH_FILE I2CMasterV3_tb.v -section_id I2CMasterV3_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE PLL12M6M48k_tb.v -section_id PLL12M6M48k_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE WM8731DriverBETA_tb.v -section_id WM8731DriverBETA_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE ADSRJane/ADSR_tb.v -section_id ADSR_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Shroeder1Rvrb/ReverbShroeder1_tb.v -section_id ReverbShroeder1_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE OscillatorJacob/Oscillator_tb.v -section_id Oscillator_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Delay1Tap_tb.v -section_id Delay1Tap_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE UnsignedTo2sCompl20Bit_tb.v -section_id UnsignedTo2sCompl20Bit_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Reduced17Tap_FIR_tb.v -section_id Reduced17Tap_FIR_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE TESTSW2_tb.v -section_id TESTSW2_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME CUSW_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id CUSW_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME CUSW_tb -section_id CUSW_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE CUSW/CUSW_tb.v -section_id CUSW_tb
+set_global_assignment -name VERILOG_FILE FilterJane/Filter_161Tap.v
+set_global_assignment -name VERILOG_FILE FilterJane/Multiplexer40bit.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

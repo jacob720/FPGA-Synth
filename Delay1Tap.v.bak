@@ -1,0 +1,28 @@
+module Delay1Tap1{
+	input RESET,
+	input CLOCK48K,
+	input CLOCK12K,
+
+	input [15:0] AudioIn,
+	output [15:0] AudioOut
+);
+
+
+alwa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+endmodule

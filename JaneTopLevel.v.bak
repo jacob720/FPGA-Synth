@@ -1,0 +1,17 @@
+module JaneTopLevel(
+	input CLOCK12M,
+	input CLOCK48kHz,
+	input RESET,
+	input [19:0] SignalIn,
+	
+	output [19:0] SignalOut
+);
+
+
+
+
+
+
+
+
+endmodule

@@ -1,0 +1,37 @@
+`timescale 10 ns/ 1 ns
+
+module WM8731DriverBETA_tb.v(
+);
+
+reg CLOCK50M
+
+reg RESET,
+reg CLOCK50M,
+reg InitialiseTransfer,
+reg [15:0] message,
+	
+wire SCLK,	//I2C clock line
+wire SDIN,	//I2C data line
+	
+wire MCLK,		//WM8731 masterClock (default: )
+	
+wire BCLK,		//I2S clock
+wire DACLRC,		//I2S left/right select (0 = left, 1 = right; 0 goes first)
+wire DACDAT		//I2S data line
+	
+	
+always begin
+#1;
+CLOCK50M = ~CLOCK50M;
+end;
+
+
+initial begin
+
+
+$stop;
+end;
+
+
+
+endmodule
