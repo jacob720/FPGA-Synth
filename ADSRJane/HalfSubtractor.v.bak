@@ -1,0 +1,10 @@
+module HalfSubtractor(
+	input A,
+	input B,
+	output diff,
+	output borrow
+);
+
+
+
+endmodule
