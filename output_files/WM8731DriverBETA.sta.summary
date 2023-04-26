@@ -1,0 +1,1397 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Counter18bit:ClockDivider|count[7]'
+Slack : -19.080
+TNS   : -9554.339
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK50M'
+Slack : -11.008
+TNS   : -6219.569
+
+Type  : Slow 1200mV 85C Model Setup 'RESET'
+Slack : -8.309
+TNS   : -577.647
+
+Type  : Slow 1200mV 85C Model Setup 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.135
+TNS   : -295.600
+
+Type  : Slow 1200mV 85C Model Setup 'Counter18bit:ClockDivider|count[17]'
+Slack : -5.983
+TNS   : -1045.705
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -0.752
+TNS   : -0.752
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -0.611
+TNS   : -0.611
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -0.570
+TNS   : -0.570
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -0.567
+TNS   : -0.567
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -0.534
+TNS   : -0.534
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -0.523
+TNS   : -0.523
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -0.512
+TNS   : -0.512
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -0.488
+TNS   : -0.488
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -0.486
+TNS   : -0.486
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -0.460
+TNS   : -0.460
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -0.457
+TNS   : -0.457
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -0.454
+TNS   : -0.454
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -0.395
+TNS   : -0.395
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -0.364
+TNS   : -0.364
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -0.341
+TNS   : -0.341
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -0.337
+TNS   : -0.337
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -0.287
+TNS   : -0.287
+
+Type  : Slow 1200mV 85C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK50M'
+Slack : -1.338
+TNS   : -6.685
+
+Type  : Slow 1200mV 85C Model Hold 'RESET'
+Slack : -1.256
+TNS   : -6.275
+
+Type  : Slow 1200mV 85C Model Hold 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.146
+TNS   : -0.290
+
+Type  : Slow 1200mV 85C Model Hold 'Counter18bit:ClockDivider|count[7]'
+Slack : -0.120
+TNS   : -0.120
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 0.451
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 0.522
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 0.541
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 0.594
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Counter18bit:ClockDivider|count[17]'
+Slack : 0.601
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 0.602
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 0.611
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 0.627
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 0.632
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : 0.726
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 0.732
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 0.742
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'RESET'
+Slack : -7.897
+TNS   : -39.485
+
+Type  : Slow 1200mV 85C Model Recovery 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.256
+TNS   : -93.827
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -6.673
+TNS   : -6.673
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -6.240
+TNS   : -6.240
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -6.151
+TNS   : -6.151
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -6.148
+TNS   : -6.148
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -6.134
+TNS   : -6.134
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -6.118
+TNS   : -6.118
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -6.116
+TNS   : -6.116
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -5.992
+TNS   : -5.992
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -5.974
+TNS   : -5.974
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -5.953
+TNS   : -5.953
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : -5.942
+TNS   : -5.942
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -5.809
+TNS   : -5.809
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -5.794
+TNS   : -5.794
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -5.777
+TNS   : -5.777
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -5.724
+TNS   : -5.724
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -5.554
+TNS   : -5.554
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -5.512
+TNS   : -5.512
+
+Type  : Slow 1200mV 85C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -5.510
+TNS   : -5.510
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK50M'
+Slack : -4.091
+TNS   : -772.515
+
+Type  : Slow 1200mV 85C Model Recovery 'InitialiseTransfer'
+Slack : -4.004
+TNS   : -4.004
+
+Type  : Slow 1200mV 85C Model Recovery 'Counter18bit:ClockDivider|count[7]'
+Slack : -1.768
+TNS   : -785.962
+
+Type  : Slow 1200mV 85C Model Removal 'InitialiseTransfer'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK50M'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Counter18bit:ClockDivider|count[7]'
+Slack : 0.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.837
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'RESET'
+Slack : 1.872
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 2.049
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 2.051
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : 2.074
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 2.255
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 2.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 2.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 2.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 2.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 2.501
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 2.532
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 2.550
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 2.653
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 2.655
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 2.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 2.699
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 2.700
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 2.788
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 3.192
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -664.549
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'InitialiseTransfer'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Counter18bit:ClockDivider|count[7]'
+Slack : -1.285
+TNS   : -2377.250
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Counter18bit:ClockDivider|count[17]'
+Slack : -1.285
+TNS   : -346.950
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK50M'
+Slack : 9.526
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 40.392
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Counter18bit:ClockDivider|count[7]'
+Slack : -17.743
+TNS   : -8696.786
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK50M'
+Slack : -10.182
+TNS   : -5748.550
+
+Type  : Slow 1200mV 0C Model Setup 'RESET'
+Slack : -7.538
+TNS   : -523.799
+
+Type  : Slow 1200mV 0C Model Setup 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.393
+TNS   : -263.891
+
+Type  : Slow 1200mV 0C Model Setup 'Counter18bit:ClockDivider|count[17]'
+Slack : -5.579
+TNS   : -965.126
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -0.656
+TNS   : -0.656
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -0.525
+TNS   : -0.525
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -0.492
+TNS   : -0.492
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -0.488
+TNS   : -0.488
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -0.466
+TNS   : -0.466
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -0.448
+TNS   : -0.448
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -0.435
+TNS   : -0.435
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -0.395
+TNS   : -0.395
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -0.367
+TNS   : -0.367
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -0.366
+TNS   : -0.366
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -0.363
+TNS   : -0.363
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -0.330
+TNS   : -0.330
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -0.311
+TNS   : -0.311
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -0.275
+TNS   : -0.275
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -0.275
+TNS   : -0.275
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -0.226
+TNS   : -0.226
+
+Type  : Slow 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'RESET'
+Slack : -1.296
+TNS   : -6.469
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK50M'
+Slack : -1.191
+TNS   : -5.944
+
+Type  : Slow 1200mV 0C Model Hold 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.253
+TNS   : -0.504
+
+Type  : Slow 1200mV 0C Model Hold 'Counter18bit:ClockDivider|count[7]'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Counter18bit:ClockDivider|count[17]'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 0.562
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 0.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 0.578
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 0.591
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 0.613
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : 0.685
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 0.701
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 0.716
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'RESET'
+Slack : -7.048
+TNS   : -35.240
+
+Type  : Slow 1200mV 0C Model Recovery 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.590
+TNS   : -84.202
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -6.071
+TNS   : -6.071
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -5.648
+TNS   : -5.648
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -5.566
+TNS   : -5.566
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -5.561
+TNS   : -5.561
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -5.550
+TNS   : -5.550
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -5.530
+TNS   : -5.530
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -5.525
+TNS   : -5.525
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -5.394
+TNS   : -5.394
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -5.391
+TNS   : -5.391
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -5.374
+TNS   : -5.374
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : -5.349
+TNS   : -5.349
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -5.239
+TNS   : -5.239
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -5.237
+TNS   : -5.237
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -5.230
+TNS   : -5.230
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -5.194
+TNS   : -5.194
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -5.038
+TNS   : -5.038
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -4.970
+TNS   : -4.970
+
+Type  : Slow 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -4.964
+TNS   : -4.964
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK50M'
+Slack : -3.507
+TNS   : -676.913
+
+Type  : Slow 1200mV 0C Model Recovery 'InitialiseTransfer'
+Slack : -3.485
+TNS   : -3.485
+
+Type  : Slow 1200mV 0C Model Recovery 'Counter18bit:ClockDivider|count[7]'
+Slack : -1.478
+TNS   : -646.134
+
+Type  : Slow 1200mV 0C Model Removal 'InitialiseTransfer'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK50M'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Counter18bit:ClockDivider|count[7]'
+Slack : 1.019
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.626
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'RESET'
+Slack : 1.839
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 1.856
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 1.867
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 2.047
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 2.097
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 2.103
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 2.134
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 2.260
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 2.262
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 2.284
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 2.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 2.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 2.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 2.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 2.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 2.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 2.517
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 2.881
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -613.622
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'InitialiseTransfer'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Counter18bit:ClockDivider|count[7]'
+Slack : -1.285
+TNS   : -2377.349
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Counter18bit:ClockDivider|count[17]'
+Slack : -1.285
+TNS   : -346.950
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK50M'
+Slack : 9.566
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 40.379
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Counter18bit:ClockDivider|count[7]'
+Slack : -8.757
+TNS   : -3825.063
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK50M'
+Slack : -4.956
+TNS   : -2685.394
+
+Type  : Fast 1200mV 0C Model Setup 'RESET'
+Slack : -4.413
+TNS   : -251.931
+
+Type  : Fast 1200mV 0C Model Setup 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.742
+TNS   : -156.232
+
+Type  : Fast 1200mV 0C Model Setup 'Counter18bit:ClockDivider|count[17]'
+Slack : -2.183
+TNS   : -341.365
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -0.041
+TNS   : -0.041
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 0.044
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 0.054
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 0.054
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 0.063
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 0.064
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK50M'
+Slack : -0.900
+TNS   : -4.493
+
+Type  : Fast 1200mV 0C Model Hold 'RESET'
+Slack : -0.457
+TNS   : -2.278
+
+Type  : Fast 1200mV 0C Model Hold 'Counter18bit:ClockDivider|count[7]'
+Slack : -0.323
+TNS   : -0.323
+
+Type  : Fast 1200mV 0C Model Hold 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.070
+TNS   : -0.138
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Counter18bit:ClockDivider|count[17]'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'RESET'
+Slack : -4.465
+TNS   : -22.325
+
+Type  : Fast 1200mV 0C Model Recovery 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.350
+TNS   : -57.439
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -3.351
+TNS   : -3.351
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -3.100
+TNS   : -3.100
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -3.050
+TNS   : -3.050
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -3.048
+TNS   : -3.048
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -3.043
+TNS   : -3.043
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -3.043
+TNS   : -3.043
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -3.040
+TNS   : -3.040
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -2.962
+TNS   : -2.962
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -2.954
+TNS   : -2.954
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -2.945
+TNS   : -2.945
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : -2.937
+TNS   : -2.937
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -2.863
+TNS   : -2.863
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -2.860
+TNS   : -2.860
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -2.848
+TNS   : -2.848
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -2.818
+TNS   : -2.818
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK50M'
+Slack : -2.790
+TNS   : -445.639
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -2.719
+TNS   : -2.719
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -2.699
+TNS   : -2.699
+
+Type  : Fast 1200mV 0C Model Recovery 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -2.693
+TNS   : -2.693
+
+Type  : Fast 1200mV 0C Model Recovery 'InitialiseTransfer'
+Slack : -1.849
+TNS   : -1.849
+
+Type  : Fast 1200mV 0C Model Recovery 'Counter18bit:ClockDivider|count[7]'
+Slack : -1.206
+TNS   : -548.517
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK50M'
+Slack : -0.187
+TNS   : -1.122
+
+Type  : Fast 1200mV 0C Model Removal 'InitialiseTransfer'
+Slack : -0.029
+TNS   : -0.029
+
+Type  : Fast 1200mV 0C Model Removal 'Counter18bit:ClockDivider|count[7]'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.856
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'RESET'
+Slack : 0.984
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : 1.339
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : 1.346
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : 1.358
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : 1.457
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : 1.486
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : 1.490
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : 1.519
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : 1.592
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : 1.606
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : 1.613
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : 1.620
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : 1.668
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : 1.672
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : 1.694
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : 1.696
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : 1.701
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : 1.742
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : 1.939
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -377.048
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'InitialiseTransfer'
+Slack : -3.000
+TNS   : -4.248
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Counter18bit:ClockDivider|count[7]'
+Slack : -1.000
+TNS   : -1850.819
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Counter18bit:ClockDivider|count[17]'
+Slack : -1.000
+TNS   : -270.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff0|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff10|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff11|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff12|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff13|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff14|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff15|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff16|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff17|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff1|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff2|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff3|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff4|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff5|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff6|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff7|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff8|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Sophie2Osc:comb_7|ClockDivider50MHzTo100Hz:clock100hzboi|Counter100Hz:clockdivcount|DTypeFFR:ff9|Q'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK50M'
+Slack : 9.235
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PLL12MHz|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 40.458
+TNS   : 0.000
+
+------------------------------------------------------------

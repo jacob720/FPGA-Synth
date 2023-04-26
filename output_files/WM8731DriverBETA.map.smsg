@@ -1,0 +1,9 @@
+Warning (10268): Verilog HDL information at PolyFreqLookup.v(104): always construct contains both blocking and non-blocking assignments File: C:/Users/mikol/Desktop/Synth/OscillatorJacob/PolyFreqLookup.v Line: 104
+Warning (10268): Verilog HDL information at DFF_module_SW.v(13): always construct contains both blocking and non-blocking assignments File: C:/Users/mikol/Desktop/Synth/SeqcrSophie/DFF_module_SW.v Line: 13
+Warning (10268): Verilog HDL information at FilterTopLevel.v(391): always construct contains both blocking and non-blocking assignments File: C:/Users/mikol/Desktop/Synth/FilterTopLevel.v Line: 391
+Info (10281): Verilog HDL Declaration information at CUSW.v(10): object "RESET" differs only in case from object "reset" in the same scope File: C:/Users/mikol/Desktop/Synth/CUSW/CUSW.v Line: 10
+Info (10281): Verilog HDL Declaration information at CUSW.v(11): object "RESET_N" differs only in case from object "reset_n" in the same scope File: C:/Users/mikol/Desktop/Synth/CUSW/CUSW.v Line: 11
+Info (10281): Verilog HDL Declaration information at variableInputRegisters.v(54): object "E55" differs only in case from object "e55" in the same scope File: C:/Users/mikol/Desktop/Synth/CUSW/variableInputRegisters.v Line: 54
+Info (10281): Verilog HDL Declaration information at variableInputRegisters.v(61): object "E56" differs only in case from object "e56" in the same scope File: C:/Users/mikol/Desktop/Synth/CUSW/variableInputRegisters.v Line: 61
+Info (10281): Verilog HDL Declaration information at variableInputRegisters.v(55): object "E65" differs only in case from object "e65" in the same scope File: C:/Users/mikol/Desktop/Synth/CUSW/variableInputRegisters.v Line: 55
+Info (10281): Verilog HDL Declaration information at variableInputRegisters.v(66): object "E66" differs only in case from object "e66" in the same scope File: C:/Users/mikol/Desktop/Synth/CUSW/variableInputRegisters.v Line: 66
